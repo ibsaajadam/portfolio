@@ -1,12 +1,28 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import Bubble from '../assets/bubble.png'
+import './assets/BubbleStyle.css';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' 
+         className="w-full h-screen bg-[#0a192f]" 
+
+        >
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        {/* Bubbles */}
+        <div className='flex content-center justify-around bubbles'>
+          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
+          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
+          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
+          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
+          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
+          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
+          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
+        </div>
+        {/* End of Bubbles */}
         <p className='text-blue-300'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Ibsaa Adam

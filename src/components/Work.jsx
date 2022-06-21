@@ -1,4 +1,5 @@
 import React from 'react';
+import './assets/WorkStyle.css';
 import One from '../assets/project-one.png';
 import Two from '../assets/project-two.png';
 import Three from '../assets/project-three.png';
@@ -15,7 +16,7 @@ import Twelve from '../assets/project-twelve.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f] pt-[40em] pb-[50em]'>
+    <div name='work' className='work w-full md:h-screen text-gray-300 bg-[#0a192f] md:pb-[50em] md:pt-[40em]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-blue-300'>
