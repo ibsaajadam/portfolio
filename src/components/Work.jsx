@@ -192,7 +192,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://xd.adobe.com/view/575be255-0d6e-49da-ab1d-574bcafacdef-0208/' target="_blank" rel="noreferrer">
+                <a href='https://xd.adobe.com/view/f98f1e45-e4be-4e9b-af0b-aeb10b478896-acdc/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
