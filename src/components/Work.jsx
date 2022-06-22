@@ -211,12 +211,12 @@ const Work = () => {
                 Adobe XD Mass Tours
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://xd.adobe.com/view/5bd8cd65-4f86-46f1-af9f-5663e452e881-0e8b/?fullscreen' target="_blank" rel="noreferrer">
+                <a href='https://xd.adobe.com/view/5bd8cd65-4f86-46f1-af9f-5663e452e881-0e8b/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://xd.adobe.com/view/5bd8cd65-4f86-46f1-af9f-5663e452e881-0e8b/' target="_blank" rel="noreferrer">
+                <a href='https://xd.adobe.com/view/5bd8cd65-4f86-46f1-af9f-5663e452e881-0e8b/specs/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
