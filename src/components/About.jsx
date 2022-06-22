@@ -19,8 +19,8 @@ const About = () => {
             <div>
               <p>After pursuing therapy and reading some self-help books to better understand myself, I rediscovered
               a passion of mine growing up which was entrepreneurship.
-              Thinking of different ideas and finding ways to bring them to life was and still is a goal of mine. 
-              On break from college I was first introduced to web development after building a successful dog walking business, but stopped the business to focus on school.
+              Finding ways to make complex tasks easier and create solutions to common problems has always been a huge interest of mine.  
+              On break from college I was first introduced to web development after building a successful dog walking business and needing a website, but stopped the business to focus on school.
               It took some years to connect the dots, but here I am today, a self-taught web developer and designer whose goal is to land a job in the tech field.</p>  
             </div>
           </div>
