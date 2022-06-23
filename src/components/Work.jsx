@@ -1,6 +1,5 @@
 import React from 'react';
 import './assets/WorkStyle.css';
-import One from '../assets/project-one.png';
 import Two from '../assets/project-two.png';
 import Three from '../assets/project-three.png';
 import Four from '../assets/project-four.png';
@@ -12,6 +11,7 @@ import Nine from '../assets/project-nine.png';
 import Ten from '../assets/project-ten.png';
 import Eleven from '../assets/project-eleven.png';
 import Twelve from '../assets/project-twelve.png';
+import Thirteen from '../assets/project-thirteen.png';
 
 
 const Work = () => {
@@ -30,21 +30,21 @@ const Work = () => {
 
             {/* Grid Item */}
             <div
-            style={{ backgroundImage: `url(${One})` }}
+            style={{ backgroundImage: `url(${Thirteen})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                JavaScript Login Form
+                JavaScript Easy Hire
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://javascript-front-end-login.netlify.app/' target="_blank" rel="noreferrer">
+                <a href='https://easy-hire.netlify.app/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ibsaajadam/javascript-login' target="_blank" rel="noreferrer">
+                <a href='https://github.com/ibsaajadam/easyHire-js' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
