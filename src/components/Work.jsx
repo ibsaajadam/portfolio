@@ -264,7 +264,7 @@ const Work = () => {
                   Demo
                 </button>
               </a>
-              <a href='https://webflow.com/design/ez-diet-case-study' target="_blank" rel="noreferrer">
+              <a href='https://ez-diet-case-study.webflow.io/' target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Code
                 </button>
