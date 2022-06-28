@@ -1,5 +1,6 @@
 import React from 'react';
 import './assets/WorkStyle.css';
+import One from '../assets/project-one.png';
 import Two from '../assets/project-two.png';
 import Three from '../assets/project-three.png';
 import Four from '../assets/project-four.png';
@@ -30,21 +31,21 @@ const Work = () => {
 
             {/* Grid Item */}
             <div
-            style={{ backgroundImage: `url(${Thirteen})` }}
+            style={{ backgroundImage: `url(${One})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                JavaScript Easy Hire
+                JavaScript Login
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://easy-hire.netlify.app/' target="_blank" rel="noreferrer">
+                <a href='https://javascript-front-end-login.netlify.app/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ibsaajadam/easyHire-js' target="_blank" rel="noreferrer">
+                <a href='https://github.com/ibsaajadam/javascript-login' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -280,10 +281,10 @@ const Work = () => {
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-              Wordpress Ecommerce
+              WooCommerce WP
             </span>
             <div className='pt-8 text-center'>
-              <a href='https://techtechup.com' target="_blank" rel="noreferrer">
+              <a href='https://techtechup.com/' target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
@@ -298,25 +299,25 @@ const Work = () => {
         </div>
 
         <div
-          style={{ backgroundImage: `url(${Twelve})` }}
+          style={{ backgroundImage: `url(${Thirteen})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-              React Redux Shop
+              Wordpress Restaurant
             </span>
             <div className='pt-8 text-center'>
-              <a href='https://donut-redux.vercel.app/' target="_blank" rel="noreferrer">
+              <a href='https://ibsaaa8.sg-host.com/' target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
               </a>
-              <a href='https://github.com/ibsaajadam/donut-redux' target="_blank" rel="noreferrer">
+              {/* <a href='https://github.com/ibsaajadam/donut-redux' target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Code
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

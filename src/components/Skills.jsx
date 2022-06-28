@@ -6,12 +6,10 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import MySQL from '../assets/mysql.png';
 import Wordpress from '../assets/wordpress.png';
-import Node from '../assets/node.png';
 import XD from '../assets/xd.png';
 import PHP from '../assets/php.png';
 import Tailwind from '../assets/tailwind.png';
 import Figma from '../assets/figma.png';
-import Mongo from '../assets/mongodb.png';
 
 const Skills = () => {
   return (
@@ -43,14 +41,6 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="REACT icon" />
                   <p className='my-4'>REACT</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="Firebase icon" />
-                  <p className='my-4'>Node.js</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Mongo} alt="VUE icon" />
-                  <p className='my-4'>MONGODB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={PHP} alt="PHP icon" />

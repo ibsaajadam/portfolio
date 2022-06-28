@@ -1,8 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
-import Bubble from '../assets/bubble.png'
-import './assets/BubbleStyle.css';
 
 const Home = () => {
   return (
@@ -30,28 +28,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      {/* Bubbles */}
-        <div className='bubbles flex align-center justify-around'>
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-          <img className="bubble w-[50px] h-[50px] animate-fall overflow-hidden" src={Bubble} alt="bubble" />
-        </div>
-        {/* End of Bubbles */}
-
-
-
-
     </div>
   );
 };
