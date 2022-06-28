@@ -9,6 +9,7 @@ import Wordpress from '../assets/wordpress.png';
 import XD from '../assets/xd.png';
 import PHP from '../assets/php.png';
 import Tailwind from '../assets/tailwind.png';
+import Bootstrap from '../assets/bootstrap.png';
 import Figma from '../assets/figma.png';
 
 const Skills = () => {
@@ -33,6 +34,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Tailwind} alt="TAILWIND icon" />
                   <p className='my-4'>TAILWINDCSS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Bootstrap} alt="Bootstrap icon" />
+                  <p className='my-4'>BOOTSTRAP</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JavaScript} alt="JAVASCRIPT icon" />

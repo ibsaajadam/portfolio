@@ -11,7 +11,6 @@ import Eight from '../assets/project-eight.png';
 import Nine from '../assets/project-nine.png';
 import Ten from '../assets/project-ten.png';
 import Eleven from '../assets/project-eleven.png';
-import Twelve from '../assets/project-twelve.png';
 import Thirteen from '../assets/project-thirteen.png';
 
 
