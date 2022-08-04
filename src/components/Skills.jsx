@@ -11,6 +11,7 @@ import PHP from '../assets/php.png';
 import Tailwind from '../assets/tailwind.png';
 import Bootstrap from '../assets/bootstrap.png';
 import Figma from '../assets/figma.png';
+import Vue from '../assets/vue.png';
 
 const Skills = () => {
   return (
@@ -45,7 +46,7 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="REACT icon" />
-                  <p className='my-4'>REACT</p>
+                  <p className='my-4'>REACT.js</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={PHP} alt="PHP icon" />
@@ -63,9 +64,13 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Figma} alt="FIGMA icon" />
                   <p className='my-4'>Figma</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Wordpress} alt="WORDPRESS icon" />
                   <p className='my-4'>WORDPRESS</p>
+              </div> */}
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Vue} alt="VUE icon" />
+                  <p className='my-4'>Vue.js</p>
               </div>
           </div>
       </div>

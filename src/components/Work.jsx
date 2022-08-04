@@ -12,6 +12,10 @@ import Nine from '../assets/project-nine.png';
 import Ten from '../assets/project-ten.png';
 import Eleven from '../assets/project-eleven.png';
 import Thirteen from '../assets/project-thirteen.png';
+import WNBA from '../assets/wnba.png';
+import BestBuy from '../assets/bestbuy.png';
+import MoviesJS from '../assets/movies.png';
+import VueSmoothies from '../assets/vuesmoothies.png';
 
 
 const Work = () => {
@@ -30,7 +34,7 @@ const Work = () => {
 
             {/* Grid Item */}
             <div
-            style={{ backgroundImage: `url(${One})` }}
+            style={{ backgroundImage: `url(${WNBA})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -39,37 +43,12 @@ const Work = () => {
                 WNBA Jobs
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://javascript-front-end-login.netlify.app/' target="_blank" rel="noreferrer">
+                <a href='https://react-jobs-500ec.web.app/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ibsaajadam/javascript-login' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-          <div
-            style={{ backgroundImage: `url(${Two})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Chrome Extension
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://www.withchristnofear.com' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/ibsaajadam/wcnf-chrome-extension' target="_blank" rel="noreferrer">
+                <a href='https://github.com/ibsaajadam/React.js-WNBA' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -96,6 +75,30 @@ const Work = () => {
                   </button>
                 </a>
                 <a href='https://github.com/ibsaajadam/hey-buddy-php-mysql'  target="_blank" rel="noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${Six})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                React JS Beaches
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://react-js-beaches.vercel.app/' target="_blank" rel="noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/ibsaajadam/reactJS-beaches' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -154,21 +157,21 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Six})` }}
+            style={{ backgroundImage: `url(${BestBuy})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Beaches
+                Chrome Extension
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://react-js-beaches.vercel.app/' target="_blank" rel="noreferrer">
+                <a href='https://www.bestbuy.com' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ibsaajadam/reactJS-beaches' target="_blank" rel="noreferrer">
+                <a href='https://github.com/ibsaajadam/bestBuy-chrome-extension' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -226,6 +229,78 @@ const Work = () => {
           </div>
 
           <div
+          style={{ backgroundImage: `url(${MoviesJS})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+              JavaScript MoviesAPI
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://tubular-pie-63af74.netlify.app/' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/moviesapi-JS' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{ backgroundImage: `url(${One})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+              JavaScript Login
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://javascript-front-end-login.netlify.app/' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/javascript-login' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{ backgroundImage: `url(${VueSmoothies})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+              Vue Smoothies
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://your-recipes-vue.web.app/#/' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/vue-smoothies' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
           style={{ backgroundImage: `url(${Nine})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
@@ -245,78 +320,6 @@ const Work = () => {
                   Code
                 </button>
               </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          style={{ backgroundImage: `url(${Ten})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
-          {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-              UI/UX Case Study
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://www.trackameal.com/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              <a href='https://ez-diet-case-study.webflow.io/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          style={{ backgroundImage: `url(${Eleven})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
-          {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-              WooCommerce WP
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://techtechup.com/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              {/* <a href='/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a> */}
-            </div>
-          </div>
-        </div>
-
-        <div
-          style={{ backgroundImage: `url(${Thirteen})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
-          {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-              Wordpress Restaurant
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://ibsaaa8.sg-host.com/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              {/* <a href='https://github.com/ibsaajadam/donut-redux' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a> */}
             </div>
           </div>
         </div>
