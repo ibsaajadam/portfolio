@@ -12,6 +12,7 @@ import Tailwind from '../assets/tailwind.png';
 import Bootstrap from '../assets/bootstrap.png';
 import Figma from '../assets/figma.png';
 import Vue from '../assets/vue.png';
+import Firebase from '../assets/firebase.png';
 
 const Skills = () => {
   return (
@@ -64,13 +65,13 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={Figma} alt="FIGMA icon" />
                   <p className='my-4'>Figma</p>
               </div>
-              {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Wordpress} alt="WORDPRESS icon" />
-                  <p className='my-4'>WORDPRESS</p>
-              </div> */}
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Vue} alt="VUE icon" />
                   <p className='my-4'>Vue.js</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Firebase} alt="FIREBASE icon" />
+                  <p className='my-4'>Google Firebase</p>
               </div>
           </div>
       </div>
