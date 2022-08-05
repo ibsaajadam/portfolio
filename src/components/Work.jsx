@@ -1,7 +1,6 @@
 import React from 'react';
 import './assets/WorkStyle.css';
 import One from '../assets/project-one.png';
-import Two from '../assets/project-two.png';
 import Three from '../assets/project-three.png';
 import Four from '../assets/project-four.png';
 import Five from '../assets/project-five.png';
@@ -9,13 +8,11 @@ import Six from '../assets/project-six.png';
 import Seven from '../assets/project-seven.png';
 import Eight from '../assets/project-eight.png';
 import Nine from '../assets/project-nine.png';
-import Ten from '../assets/project-ten.png';
-import Eleven from '../assets/project-eleven.png';
-import Thirteen from '../assets/project-thirteen.png';
 import WNBA from '../assets/wnba.png';
 import BestBuy from '../assets/bestbuy.png';
 import MoviesJS from '../assets/movies.png';
 import VueSmoothies from '../assets/vuesmoothies.png';
+import Map from '../assets/map.png'
 
 
 const Work = () => {
@@ -108,21 +105,21 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Four})` }}
+            style={{ backgroundImage: `url(${Map})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                PHP MySQL Nike Staff
+                React.js Map
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://nike-admin.000webhostapp.com/index.php' target="_blank" rel="noreferrer">
+                <a href='https://boisterous-sundae-6dbd4d.netlify.app/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/ibsaajadam/Nike-staff-php' target="_blank" rel="noreferrer">
+                <a href='https://github.com/ibsaajadam/MapsAPI-React' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -277,6 +274,30 @@ const Work = () => {
         </div>
 
         <div
+          style={{ backgroundImage: `url(${Four})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+            PHP MySQL Nike Staff
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://nike-admin.000webhostapp.com/index.php' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/Nike-staff-php' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
           style={{ backgroundImage: `url(${VueSmoothies})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
@@ -292,30 +313,6 @@ const Work = () => {
                 </button>
               </a>
               <a href='https://github.com/ibsaajadam/vue-smoothies' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          style={{ backgroundImage: `url(${Nine})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
-          {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-              JavaScript WeatherAPI
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://weatherapp-javascript22.netlify.app/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              <a href='https://github.com/ibsaajadam/weatherAPI-js' target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Code
                 </button>
