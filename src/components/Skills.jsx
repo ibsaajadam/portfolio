@@ -5,8 +5,6 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import MySQL from '../assets/mysql.png';
-import Wordpress from '../assets/wordpress.png';
-import XD from '../assets/xd.png';
 import PHP from '../assets/php.png';
 import Tailwind from '../assets/tailwind.png';
 import Bootstrap from '../assets/bootstrap.png';
@@ -56,10 +54,6 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={MySQL} alt="MySQL icon" />
                   <p className='my-4'>MySQL</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={XD} alt="ADOBE XD icon" />
-                  <p className='my-4'>Adobe XD</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Figma} alt="FIGMA icon" />

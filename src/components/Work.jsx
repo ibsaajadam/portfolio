@@ -5,9 +5,8 @@ import Three from '../assets/project-three.png';
 import Four from '../assets/project-four.png';
 import Five from '../assets/project-five.png';
 import Six from '../assets/project-six.png';
-import Seven from '../assets/project-seven.png';
-import Eight from '../assets/project-eight.png';
-import Nine from '../assets/project-nine.png';
+import MealFinder from '../assets/meal-finder.png';
+import FormValidation from '../assets/form-validator.png';
 import WNBA from '../assets/wnba.png';
 import BestBuy from '../assets/bestbuy.png';
 import MoviesJS from '../assets/movies.png';
@@ -37,7 +36,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                WNBA Jobs
+                WNBA Jobs React JS
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://react-jobs-500ec.web.app/' target="_blank" rel="noreferrer">
@@ -111,7 +110,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React.js Map
+                React JS Google Map
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://boisterous-sundae-6dbd4d.netlify.app/' target="_blank" rel="noreferrer">
@@ -136,7 +135,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React Mystery Search
+                React JS Mysteries
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://mystery-movies-react-json.netlify.app/' target="_blank" rel="noreferrer">
@@ -169,54 +168,6 @@ const Work = () => {
                   </button>
                 </a>
                 <a href='https://github.com/ibsaajadam/bestBuy-chrome-extension' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${Seven})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Adobe XD Banking App
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://xd.adobe.com/view/f98f1e45-e4be-4e9b-af0b-aeb10b478896-acdc/?fullscreen' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://xd.adobe.com/view/f98f1e45-e4be-4e9b-af0b-aeb10b478896-acdc/' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${Eight})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Adobe XD Mass Tours
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://xd.adobe.com/view/5bd8cd65-4f86-46f1-af9f-5663e452e881-0e8b/' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://xd.adobe.com/view/5bd8cd65-4f86-46f1-af9f-5663e452e881-0e8b/specs/' target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -304,7 +255,7 @@ const Work = () => {
           {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-              Vue Smoothies
+              Vue JS Smoothies
             </span>
             <div className='pt-8 text-center'>
               <a href='https://your-recipes-vue.web.app/#/' target="_blank" rel="noreferrer">
@@ -321,18 +272,53 @@ const Work = () => {
           </div>
         </div>
 
+        <div
+          style={{ backgroundImage: `url(${MealFinder})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+              Meal Finder API
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://find-me-meals.netlify.app/' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/meal-finder' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
 
-
-
-
-
-
- 
-
-          
-
-          
-
+        <div
+          style={{ backgroundImage: `url(${FormValidation})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+              JS Form Validator
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://form-validate-ibsaa.netlify.app/' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/form-validatorjs' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
           
         </div>
       </div>
