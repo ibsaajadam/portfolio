@@ -21,7 +21,7 @@ const About = () => {
               a passion of mine growing up which was entrepreneurship.
               Finding ways to make complex tasks easier and create solutions to common problems has always been a huge interest of mine.  
               On break from college I was first introduced to web development after building a successful dog walking business and needing a website, but stopped the business to focus on school.
-              It took some years to connect the dots, but here I am today, a self-taught web developer and designer whose goal is to land a job in the tech field.</p>  
+              It took some years to connect the dots, but here I am today, a self-taught web developer and designer whose goal is to continue my journey in the tech field.</p>  
             </div>
           </div>
       </div>
