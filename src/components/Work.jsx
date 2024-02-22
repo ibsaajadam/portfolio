@@ -28,32 +28,6 @@ const Work = () => {
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-
-            {/* Grid Item */}
-            {/* <div
-            style={{ backgroundImage: `url(${WNBA})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                WNBA Jobs React JS
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://react-jobs-500ec.web.app/' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/ibsaajadam/React.js-WNBA' target="_blank" rel="noreferrer">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div> */}
-
-
             {/* Grid Item */}
             <div
             style={{ backgroundImage: `url(${Three})` }}
@@ -204,32 +178,6 @@ const Work = () => {
           </div>
         </div> */}
 
-        
-
-        {/* <div
-          style={{ backgroundImage: `url(${VueSmoothies})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
-          <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-              Vue JS Smoothies
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://your-recipes-vue.web.app/#/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              <a href='https://github.com/ibsaajadam/vue-smoothies' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-        </div> */}
-
-
 
         {/* <div
           style={{ backgroundImage: `url(${MealFinder})` }}
@@ -272,6 +220,55 @@ const Work = () => {
                 </button>
               </a>
               <a href='https://github.com/ibsaajadam/form-validatorjs' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${WNBA})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                WNBA Jobs React JS
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://react-jobs-500ec.web.app/' target="_blank" rel="noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/ibsaajadam/React.js-WNBA' target="_blank" rel="noreferrer">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+        <div
+          style={{ backgroundImage: `url(${VueSmoothies})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+              Vue JS Smoothies
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://your-recipes-vue.web.app/#/' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/vue-smoothies' target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Code
                 </button>
