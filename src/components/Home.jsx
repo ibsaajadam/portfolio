@@ -12,7 +12,7 @@ const Home = () => {
           Ibsaa Adam
         </h1>
         <h2 className='text-4xl sm:text-5xl font-bold text-[#8892b0]'>
-          I'm A Jr. Front-End Web Developer.
+          I'm A Junior Web Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           My passion in life is personal development. On my journey of bettering and understanding myself I discovered my career passion of web design and development.
