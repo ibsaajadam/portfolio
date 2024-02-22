@@ -38,7 +38,7 @@ const Work = () => {
                 PHP MySQL Dog Search
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://thatsmydog.000webhostapp.com/'  target="_blank" rel="noreferrer">
+                <a href='https://thatsmydoggo.000webhostapp.com/'  target="_blank" rel="noreferrer">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
