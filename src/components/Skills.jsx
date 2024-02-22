@@ -11,6 +11,7 @@ import Bootstrap from '../assets/bootstrap.png';
 import Figma from '../assets/figma.png';
 import Vue from '../assets/vue.png';
 import Firebase from '../assets/firebase.png';
+import Drupal from '../assets/drupal.png';
 
 const Skills = () => {
   return (
@@ -66,6 +67,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Firebase} alt="FIREBASE icon" />
                   <p className='my-4'>Google Firebase</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Drupal} alt="Drupal icon" />
+                  <p className='my-4'>Drupal</p>
               </div>
           </div>
       </div>
