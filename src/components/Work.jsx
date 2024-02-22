@@ -28,12 +28,12 @@ const Work = () => {
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
+
             {/* Grid Item */}
-            <div
+            {/* <div
             style={{ backgroundImage: `url(${WNBA})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 WNBA Jobs React JS
@@ -51,7 +51,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
             {/* Grid Item */}
@@ -59,7 +59,6 @@ const Work = () => {
             style={{ backgroundImage: `url(${Three})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 PHP MySQL Dog Search
@@ -78,6 +77,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
 
           <div
             style={{ backgroundImage: `url(${Six})` }}
@@ -103,11 +103,11 @@ const Work = () => {
             </div>
           </div>
 
-          <div
+
+          {/* <div
             style={{ backgroundImage: `url(${Map})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Google Map
@@ -125,14 +125,15 @@ const Work = () => {
                 </a>
               </div>
             </div>
-           </div>
+           </div> */}
 
-            {/* Grid Item */}
+
+
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Five})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Mysteries
@@ -151,13 +152,15 @@ const Work = () => {
               </div>
             </div>
           </div>
+{/* 
+
 
           <div
             style={{ backgroundImage: `url(${BestBuy})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
+          > */}
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            {/* <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Chrome Extension
               </span>
@@ -174,62 +177,15 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div
-          style={{ backgroundImage: `url(${MoviesJS})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
-          {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-              JavaScript MoviesAPI
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://tubular-pie-63af74.netlify.app/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              <a href='https://github.com/ibsaajadam/moviesapi-JS' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
 
-        <div
-          style={{ backgroundImage: `url(${One})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
-          {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-              JavaScript Login
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://javascript-front-end-login.netlify.app/' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              <a href='https://github.com/ibsaajadam/javascript-login' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
+        {/* <div
           style={{ backgroundImage: `url(${Four})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
+        > */}
           {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
+          {/* <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
             PHP MySQL Nike Staff
             </span>
@@ -246,13 +202,14 @@ const Work = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div
+        
+
+        {/* <div
           style={{ backgroundImage: `url(${VueSmoothies})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
-          {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
               Vue JS Smoothies
@@ -270,14 +227,16 @@ const Work = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div
+
+
+        {/* <div
           style={{ backgroundImage: `url(${MealFinder})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        >
+        > */}
           {/* Hover Effects */}
-          <div className='opacity-0 group-hover:opacity-100'>
+          {/* <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
               Meal Finder API
             </span>
@@ -294,13 +253,14 @@ const Work = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
+
+
 
         <div
           style={{ backgroundImage: `url(${FormValidation})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
-          {/* Hover Effects */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
               JS Form Validator
