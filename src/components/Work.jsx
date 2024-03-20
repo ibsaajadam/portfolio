@@ -53,12 +53,12 @@ const Work = () => {
           </div>
 
 
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${Six})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
+          > */}
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            {/* <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 React JS Beaches
               </span>
@@ -75,7 +75,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
           {/* Grid Item */}
@@ -229,7 +229,7 @@ const Work = () => {
           </div>
 
 
-        <div
+        {/* <div
           style={{ backgroundImage: `url(${VueSmoothies})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
         >
@@ -250,10 +250,10 @@ const Work = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         
 
-        <div
+        {/* <div
             style={{ backgroundImage: `url(${Map})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -274,7 +274,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-           </div>
+           </div> */}
           
         </div>
       </div>
