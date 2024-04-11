@@ -17,11 +17,7 @@ const About = () => {
               <p>Nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>After pursuing therapy and reading some self-help books to better understand myself, I rediscovered
-              a passion of mine growing up which was entrepreneurship.
-              Finding ways to make complex tasks easier and create solutions to common problems has always been a huge interest of mine.  
-              On break from college I was first introduced to web development after building a successful dog walking business and needing a website, but stopped the business to focus on school.
-              It took some years to connect the dots, but here I am today, a self-taught web developer and designer whose goal is to continue my journey in the tech field.</p>  
+              <p>During my tenure as a Junior Web Developer at Worcester Polytechnic Institute (WPI) in Worcester, MA, I embraced a multifaceted role that extended beyond coding and design. Alongside the Lead Developer, I diligently managed bug fixes and orchestrated site improvements on the university's Drupal-powered front-facing website. Drawing on my entrepreneurial background and self-taught skills, I approached each task with a blend of creativity and technical acumen. Moreover, I collaborated closely with colleagues in the Marketing department, including the Web Designer, to brainstorm and implement changes aimed at optimizing the website's functionality and user experience. Additionally, I found great fulfillment in working directly with students, lending a helping hand to troubleshoot and resolve issues they encountered with the university's site. This holistic experience not only deepened my expertise in web development but also reinforced my commitment to fostering innovation and supporting others within the tech community.</p>  
             </div>
           </div>
       </div>
