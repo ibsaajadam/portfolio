@@ -62,7 +62,7 @@ const Work = () => {
             PHP MySQL Nike Staff
             </span>
             <div className='pt-8 text-center'>
-              <a href='https://nike-admin.000webhostapp.com/index.php' target="_blank" rel="noreferrer">
+              <a href='https://niketeam.000webhostapp.com/' target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
