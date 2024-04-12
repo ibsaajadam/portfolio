@@ -52,6 +52,30 @@ const Work = () => {
             </div>
           </div>
 
+          <div
+          style={{ backgroundImage: `url(${Four})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+        >
+          {/* Hover Effects */}
+          <div className='opacity-0 group-hover:opacity-100'>
+            <span className='text-2xl font-bold text-white tracking-wider'>
+            PHP MySQL Nike Staff
+            </span>
+            <div className='pt-8 text-center'>
+              <a href='https://nike-admin.000webhostapp.com/index.php' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Demo
+                </button>
+              </a>
+              <a href='https://github.com/ibsaajadam/nike-team' target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
 
           <div
             style={{ backgroundImage: `url(${Six})` }}
@@ -127,31 +151,6 @@ const Work = () => {
               </div>
             </div>
           </div> */}
-
-
-        {/* <div
-          style={{ backgroundImage: `url(${Four})` }}
-          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-        > */}
-          {/* Hover Effects */}
-          {/* <div className='opacity-0 group-hover:opacity-100'>
-            <span className='text-2xl font-bold text-white tracking-wider'>
-            PHP MySQL Nike Staff
-            </span>
-            <div className='pt-8 text-center'>
-              <a href='https://nike-admin.000webhostapp.com/index.php' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Demo
-                </button>
-              </a>
-              <a href='https://github.com/ibsaajadam/Nike-staff-php' target="_blank" rel="noreferrer">
-                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-        </div> */}
 
 
         {/* <div
